@@ -1,0 +1,11 @@
+bitsandbytes
+datasets
+einops
+mlflow
+omegaconf
+sentencepiece
+tokenizers
+peft
+transformers
+accelerate
+trl
