@@ -78,9 +78,9 @@ We performed human and machine evaluations on XQuAD zero-shot and one-shot setti
 |      Model     | Exact Match (Zero-shot) | F1 (Zero-shot) | Exact Match (One-shot) | F1 (One-shot) |
 |:--------------:|:-----------------------:|:--------------:|:----------------------:|:-------------:|
 | openthaigpt7B  |         18.57           |     28.40      |         30.42          |    39.76      |
-| SeaLLM7B       |            -            |        -       |            -           |    44.43      |
-| Typhoon-7b     |         -               |     34.46      |            -           |    **54.03**  |
-| WangchanLion7B |        **37.56**        |   **49.84**    |         **39.24**      |    51.07    |
+| SeaLLM7B       |           8.25          |    34.40       |      **40.05**         |  **58.27**    |
+| Typhoon-7b     |         -               |     34.46      |            -           |    54.03      |
+| WangchanLion7B |        **37.56**        |   **49.84**    |         39.24          |    51.07      |
 
 ## iAPP Wiki QA 
 |      Model     | Exact Match (Zero-shot) | F1 (Zero-shot) | Exact Match (One-shot) | F1 (One-shot) |
