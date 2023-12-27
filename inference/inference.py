@@ -2,7 +2,7 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 generation_kwargs = {
-    "do_sample": False,  # set to true if temperature is not 0
+    "do_sample": False,  # set to true if the temperature is not 0
     "temperature": None,
     "max_new_tokens": 256,
     "top_k": 50,
