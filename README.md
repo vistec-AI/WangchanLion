@@ -70,6 +70,11 @@ print(tokenizer.decode(output[0], skip_special_tokens=True))
 Finetuning datasets are sourced from [LAION OIG chip2 and infill_dbpedia (Apache-2.0)](https://huggingface.co/datasets/laion/OIG), [DataBricks Dolly v2 (Apache-2.0)](https://github.com/databrickslabs/dolly), [OpenAI TL;DR (MIT)](https://github.com/openai/summarize-from-feedback), [Hello-SimpleAI HC3 (CC-BY SA)](https://huggingface.co/datasets/Hello-SimpleAI/HC3), [dolphin](https://huggingface.co/datasets/ehartford/dolphin), [iapp_wiki_qa_squad](https://huggingface.co/datasets/iapp_wiki_qa_squad) , [thaisum](https://huggingface.co/datasets/thaisum), [xlsum](https://huggingface.co/datasets/csebuetnlp/xlsum), [scb_mt_enth_2020](https://huggingface.co/datasets/scb_mt_enth_2020), [han dataset](https://huggingface.co/datasets/pythainlp/han-instruct-dataset-v1.0), [xp3x](https://huggingface.co/datasets/Muennighoff/xP3x) and [Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus).
 ## Training regime
 - QLoRA with 4 A100 (40GB)
+  
+## Training script
+```python
+print('hi')
+```
 
  
 # Evaluation
