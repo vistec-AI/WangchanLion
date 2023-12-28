@@ -11,19 +11,20 @@ What WangchanLion offers:
 - Model:  [https://github.com/vistec-AI/WangchanLion](https://huggingface.co/airesearch/WangchanLion7B)
 - Demo: [demo_WangchanLion.ipynb - Colaboratory](https://colab.research.google.com/drive/1y_7oOU3ZJI0h4chUrXFL3K4kelW_OI2G?usp=sharing#scrollTo=4yN3Bo6iAH2L)
 
-# Direct Use
+# Use cases
+## Direct Use
 Intended to be used as an instruction-following model for reading comprehension, brainstorming, and creative writing.
 
-# Downstream Use
+## Downstream Use
 The model can be finetuned for any typical instruction-following use cases.
 
-# Out-of-Scope Use
+## Out-of-Scope Use
 We do not expect the models to perform well in math problems, reasoning, and factfulness.
  
-# Bias, Risks, and Limitations
+## Bias, Risks, and Limitations
 We noticed similar limitations to other finetuned instruction followers, such as math problems, reasoning, and factfulness. Even though the models do not perform on the level that we expect them to be abused, they do contain undesirable biases and toxicity and should be further optimized for your particular use cases.
 
-# Recommendations
+## Recommendations
 Users (both direct and downstream) should be made aware of the risks, biases, and limitations of the model. More information is needed for further recommendations.
  
 # How to Get Started with the Model
