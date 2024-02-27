@@ -93,4 +93,4 @@ We performed human and machine evaluations on XQuAD zero-shot and one-shot setti
 |:--------------:|:--------------:|:-------------:|
 | openthaigpt7B  |       40.0614     |    46.6883    |
 | SeaLLM7B       |       23.6425    |    28.9934    |
-| WangchanLion7B | |   **58.9051**  |  **62.9776**  |
+| WangchanLion7B |   **58.9051**  |  **62.9776**  |
