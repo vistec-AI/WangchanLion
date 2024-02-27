@@ -74,23 +74,23 @@ Finetuning datasets are sourced from [LAION OIG chip2 and infill_dbpedia (Apache
   
 ## Training script
 ```python
-print('hi')
+accelerate launch supervised_fine_tuning.py --config_path="train_config.yaml"
 ```
 
  
 # Evaluation
 We performed human and machine evaluations on XQuAD zero-shot and one-shot settings:
 ## XQuAD
-|      Model     | Exact Match (Zero-shot) | F1 (Zero-shot) | Exact Match (One-shot) | F1 (One-shot) |
-|:--------------:|:-----------------------:|:--------------:|:----------------------:|:-------------:|
-| openthaigpt7B  |         18.57           |     28.40      |         30.42          |    39.76      |
-| SeaLLM7B       |           6.30          |    21.67       |      34.45             |  47.80        |
-| Typhoon-7b     |         -               |     34.46      |            -           |    **54.03**  |
-| WangchanLion7B |        **37.56**        |   **49.84**    |         **39.24**      |    51.07      |
+|      Model     | F1 (Zero-shot) | F1 (One-shot) |
+|:--------------:|:--------------:|:-------------:|
+| openthaigpt7B  |     27.3487      |    34.3104     |
+| SeaLLM7B V2       |    16.1104       |  25.7399        |
+| Typhoon-7b     |     34.46      |    **54.03**  |
+| WangchanLion7B |   **45.8763**    |    49.9145      |
 
 ## iAPP Wiki QA 
-|      Model     | Exact Match (Zero-shot) | F1 (Zero-shot) | Exact Match (One-shot) | F1 (One-shot) |
-|:--------------:|:-----------------------:|:--------------:|:----------------------:|:-------------:|
-| openthaigpt7B  |         22.06         |     40.07    |         31.39        |    47.98    |
-| SeaLLM7B       |          8.25         |     34.40    |         40.05        |    58.27    |
-| WangchanLion7B |       **55.48**       |   **67.93**  |       **56.43**      |  **68.85**  |
+|      Model     | F1 (Zero-shot) | F1 (One-shot) |
+|:--------------:|:--------------:|:-------------:|
+| openthaigpt7B  |       40.0614     |    46.6883    |
+| SeaLLM7B       |       23.6425    |    28.9934    |
+| WangchanLion7B | |   **58.9051**  |  **62.9776**  |
