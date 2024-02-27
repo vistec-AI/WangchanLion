@@ -24,6 +24,9 @@ We do not expect the models to perform well in math problems, reasoning, and fac
 ## Bias, Risks, and Limitations
 We noticed similar limitations to other finetuned instruction followers, such as math problems, reasoning, and factfulness. Even though the models do not perform on the level that we expect them to be abused, they do contain undesirable biases and toxicity and should be further optimized for your particular use cases.
 
+## Acknowledgement
+This repo is adepted from [sealion](https://github.com/aisingapore/sealion). We thank the authors for their great work.
+
 ## Recommendations
 Users (both direct and downstream) should be made aware of the risks, biases, and limitations of the model. More information is needed for further recommendations.
  
