@@ -8,7 +8,7 @@ What WangchanLion offers:
 - Transparent finetuning code: The finetuning code for WangchanLion is readily available for distribution. By sharing our methods and processes, we invite others to learn from, build upon, and innovate alongside us.
 
 ## Model Sources
-- Model:  [https://github.com/vistec-AI/WangchanLion](https://huggingface.co/airesearch/WangchanLion7B)
+- Model:  [https://huggingface.co/airesearch/WangchanLion7B](https://huggingface.co/airesearch/WangchanLion7B)
 - Demo: [demo_WangchanLion.ipynb - Colaboratory](https://colab.research.google.com/drive/1y_7oOU3ZJI0h4chUrXFL3K4kelW_OI2G?usp=sharing#scrollTo=4yN3Bo6iAH2L)
 
 # Use cases
