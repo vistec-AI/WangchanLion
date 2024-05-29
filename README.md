@@ -1,3 +1,5 @@
+<img src="https://github.com/vistec-AI/vistec-ai.github.io/blob/main/wangchanx_logo_color.png?raw=true" width="250">
+
 # WangchanLion
 
 WangchanLion is an instruction-finetuned model based on SEA-LION, a pan-ASEAN pretrained LLM development led by AI Singapore. The finetuning of WangchanLion is a collaborative effort between VISTEC and AI Singapore. 
